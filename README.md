@@ -1,11 +1,11 @@
-# 🌧️ Rainfall Prediction using Ensemble Machine Learning
+#  Rainfall Prediction using Ensemble Machine Learning
 
 🔗 **Live App:**  
 https://rain-fall-prediction-ensemble-ml-cw4afpxjcsrlv7mnmkjhai.streamlit.app/
 
 ---
 
-## 📌 Overview
+##  Overview
 
 This project builds and deploys a **rainfall prediction model** using ensemble machine learning techniques. The model predicts whether it will rain based on meteorological inputs such as temperature and wind conditions.
 
@@ -13,7 +13,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Ensemble learning using:
   - Random Forest (Bagging)
@@ -26,7 +26,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - Problem Type: Binary Classification (Rain / No Rain)
 - Evaluation Metric: F1 Score (due to class imbalance)
@@ -35,7 +35,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 
 ---
 
-## 📊 Input Features
+##  Input Features
 
 - Average Temperature  
 - Maximum Temperature  
@@ -45,7 +45,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. User inputs weather conditions  
 2. Stacked ensemble model processes input  
@@ -55,7 +55,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 
 ---
 
-## 🖥️ Run Locally
+##  Run Locally
 
 ```bash
 git clone https://github.com/your-username/rainfall-ensemble-app.git
