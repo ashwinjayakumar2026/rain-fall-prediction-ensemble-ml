@@ -5,7 +5,7 @@ import numpy as np
 # Load model
 model = joblib.load("rain_model.pkl")
 
-st.title("🌧️ Rainfall Prediction App")
+st.title(" Rainfall Prediction App")
 st.write("Stacked Ensemble Model (RF + GB + XGBoost)")
 
 # Inputs
@@ -20,10 +20,10 @@ if st.button("Predict"):
     input_data = np.array([[avg_temp, max_temp, min_temp, wind_speed, wind_dir]])
 
     prob = model.predict_proba(input_data)[0][1]
-
+    prob_percent = prob * 100
     prediction = 1 if prob > 0.45 else 0
-
+    
     if prediction == 1:
-        st.success(f"🌧️ Rain Expected (Probability: {prob:.2f})")
+        st.success(f" Rain Expected (Probability: {prob_percent:.2f}%)")
     else:
-        st.info(f"☀️ No Rain (Probability: {prob:.2f})")
+        st.info(f"☀️ No Rain (Probability: {prob_percent:.2f}%)")
