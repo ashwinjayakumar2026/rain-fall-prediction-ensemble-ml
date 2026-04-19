@@ -58,7 +58,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 ## 📊 Model Interpretation
 
 ### 🔍 SHAP Summary Plot
-![SHAP](assets/shap_summary.png)
+![SHAP](assets/SHAP_summary.png)
 
 This plot shows how each feature contributes to rainfall prediction.
 
