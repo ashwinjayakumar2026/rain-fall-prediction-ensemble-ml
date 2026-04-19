@@ -55,6 +55,20 @@ The final model is deployed as an interactive web application using **Streamlit*
 
 ---
 
+## 📊 Model Interpretation
+
+### 🔍 SHAP Summary Plot
+![SHAP](assets/shap_summary.png)
+
+This plot shows how each feature contributes to rainfall prediction.
+
+---
+
+### 📈 Feature Importance
+![Feature Importance](assets/feature_importance.png)
+
+Maximum and minimum temperatures are the most influential features.
+
 ##  Run Locally
 
 ```bash
