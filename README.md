@@ -31,7 +31,7 @@ The final model is deployed as an interactive web application using **Streamlit*
 - Problem Type: Binary Classification (Rain / No Rain)
 - Evaluation Metric: F1 Score (due to class imbalance)
 - Best Performance:
-  - F1 Score ≈ **87%**
+  - F1 Score ≈ **0.87**
 
 ---
 
